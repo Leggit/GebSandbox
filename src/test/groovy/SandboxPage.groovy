@@ -8,6 +8,6 @@ class SandboxPage extends Page {
     }
 
     static content = {
-        stephptLink(required: true) { $("body > app-root > footer > p:nth-child(5) > a:nth-child(1)") }
+        githubLink(required: true) { $("body > app-root > footer > p:nth-child(5) > a:nth-child(1)") }
     }
 }

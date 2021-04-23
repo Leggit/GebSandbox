@@ -30,7 +30,7 @@ class SandboxSpec extends GebReportingSpec {
             at SandboxPage
 
         when: "PUiyucvybiuoh"
-            withNewWindow({ stephptLink.click() }, close: true) {
+            withNewWindow({ githubtLink.click() }, close: true) {
                 then: "Things"
                     at GithubPage
 
